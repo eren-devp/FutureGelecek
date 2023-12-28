@@ -1,0 +1,255 @@
+@charset "utf-8";
+body{
+	margin-right:auto;
+	margin-left:auto;
+	display: block;
+	min-height: 1200px;
+	width: 1000px;
+	background-color: #FFF;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container{
+	background-image: images/AnaSayfa_23.gif;
+}
+
+.kalin-yazi {
+	font-weight: bold;
+	font-size: 22px;
+	color: #60CBEF;
+	text-align: left;
+	vertical-align: bottom;
+}
+
+.fiyat {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 28px;
+	text-align: right;
+	font-weight: bold;
+	color: #F00;
+}
+
+.book-td {
+	padding-bottom: 3px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.book-td:hover {
+	border-bottom: solid 3px #60CBEF;
+	padding-bottom: 0px;
+	border-radius: 3px;
+	text-align: center;
+	vertical-align: middle;
+	-webkit-transition: all 100ms ease 50ms;
+	-moz-transition: all 100ms ease 50ms;
+	-ms-transition: all 100ms ease 50ms;
+	-o-transition: all 100ms ease 50ms;
+	transition: all 100ms ease 50ms;
+}
+
+.kitap {
+	height: 250px;
+}
+
+.isimler {
+	font-size: 22px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.indirim-h1 {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.okul-link {
+	text-decoration: none;
+	color: #60CBEF;
+}
+
+.okul-link:hover {
+	text-decoration: underline;
+	color: #60CBEF;
+}
+
+.mavi {
+	color: #60CBEF;
+}
+
+.FG {
+	font-size: 22px;
+	font-weight: bold;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color: #60CBEF;
+	text-align: center;
+	vertical-align: top;
+}
+
+#instagram {
+	text-align: center;
+	vertical-align: middle;
+	height:28px;
+}
+
+#instagram1 {
+	text-align: center;
+	vertical-align: middle;
+	height:28px;
+}
+
+#instagram2 {
+	text-align: center;
+	vertical-align: middle;
+	height:28px;
+}
+
+#instagram3 {
+	text-align: center;
+	vertical-align: middle;
+	height:28px;
+}
+
+.isimler {
+	font-size: 22px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.sosyalMedya {
+	line-height: 28px;	
+}
+
+.sikayet {
+	font-weight: bold;
+}
+
+.gonder {
+	float: right;
+	border-radius: 5px;
+	background-color: #DDD;
+	border: solid 1px #CBCBCB;
+}
+
+.gonder:hover {
+	float: right;
+	border-radius: 5px;
+	background-color: #9FF;
+}
+
+.cok-satan {
+	text-align: center;
+	color: #90F;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.gri:hover {
+	color: #646464;
+	border-bottom: solid 1px #AAA;
+	-webkit-transition: all 125ms ease-in 75ms;
+	-moz-transition: all 125ms ease-in 75ms;
+	-ms-transition: all 125ms ease-in 75ms;
+	-o-transition: all 125ms ease-in 75ms;
+	transition: all 125ms ease-in 75ms;
+}
+
+.bildirme {
+	color: #646464;
+	border-bottom: solid 1px #AAA;
+}
+
+.yesil {
+	color: #0F0;
+}
+
+.kirmizi {
+	color: #F30;
+}
+
+.guzel-mor {
+	color: #90F
+}
+
+.ana-sayfa-kitap {
+	background: #60CBEF;
+	width: 300px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 36px;
+	border-radius: 15px;
+	padding: 10px;
+}
+
+.ana-sayfa-kitap:hover {
+	border-bottom: solid 5px;
+	border-left: solid 5px;
+	border-color: #90F;
+	border-radius: 15px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	-webkit-transition: all 150ms ease-in 75ms;
+	-moz-transition: all 150ms ease-in 75ms;
+	-ms-transition: all 150ms ease-in 75ms;
+	-o-transition: all 150ms ease-in 75ms;
+	transition: all 150ms ease-in 75ms;
+}
+
+.kim-hazirladi {
+	float: right;
+	border-radius: 10px;
+	padding: 7px;
+	background: #CF77AA;
+	margin-top: 5px;
+}
+
+.menu-tiklanan {
+	text-decoration: none;
+	display: block;
+}
+
+.menu-tiklanan:hover {
+	text-decoration: none;
+	display: block;
+}
+
+.menu-aciklamalar {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 15px;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	
+}
+
+li {
+	position: relative;
+	display: block;
+}
+
+li:hover ul {
+	position: absolute;
+	display: block;
+	font-size: 18px;
+	text-decoration: none;
+	background: trasnparent;
+	width: 100%;
+	color: #CF77AA;
+}
+
+li ul {
+	position: absolute;
+	display: none;
+}
+
+li ul:hover {
+	display: none;
+}
